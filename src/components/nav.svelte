@@ -1,5 +1,5 @@
 <script>
-  let src = "src/lib/Logo-nobg.png";
+  let src = "https://mbaggesen.com/lib/Logo-nobg.png";
 </script>
 
 <nav
