@@ -21,7 +21,7 @@
   <div class="w-fill rounded-md px-2  bg-black ">
     <img
       class="my-5 rounded-md px-2 "
-      src={"src/lib/Billede2.png"}
+      src={"../src/lib/Billede2.png"}
       alt="Katenbillede1"
     />
     <h1 class="text-lg text-center pb-1 text-white">
