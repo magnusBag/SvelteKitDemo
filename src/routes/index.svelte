@@ -10,6 +10,7 @@
 
 <div class="p-2">
   <!-- titel -->
+
   <div class="grid w-full mt-2 sm:-mt-4 ">
     <span class="block justify-self-center mb-9 mt-6 " />
     <h1
@@ -18,14 +19,20 @@
       K a n t e n
     </h1>
   </div>
+
   <!-- om os tekst -->
-  <div class="bg-black p-4 my-6 lg:mt-96 rounded-md lg:w-128 mx-auto  ">
-    <h1 class="text-2xl my-5 uppercase text-white text-center px-2 ">
-      <b>om kanten</b>
-    </h1>
-    <span class="block justify-self-center" />
-    <p class="text-md my-5 text-white px-2">{texts.text2}</p>
-  </div>
+  <a href="#textgrid">
+    <div
+      id="textgrid"
+      class="bg-black p-4 my-6 lg:mt-96 rounded-md lg:w-128 mx-auto  "
+    >
+      <h1 class="text-2xl my-5 uppercase text-white text-center px-2 ">
+        <b>om kanten</b>
+      </h1>
+      <span class="block justify-self-center" />
+      <p class="text-md my-5 text-white px-2">{texts.text2}</p>
+    </div>
+  </a>
 
   <!-- grid -->
   <Contentgrid {texts} />

@@ -22,3 +22,7 @@ body::-webkit-scrollbar-track {
     width: 4rem;
     height: 2px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
