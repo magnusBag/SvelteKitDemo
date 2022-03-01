@@ -40,7 +40,4 @@
   main {
     font-family: "Poppins", sans-serif;
   }
-  html {
-    scroll-behavior: smooth;
-  }
 </style>
