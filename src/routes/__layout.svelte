@@ -19,7 +19,7 @@
     }
   }
   .image {
-    background: url("../static/Farve.png");
+    background: url("../lib/Farve.png");
     background-position: 50% 190px;
     background-repeat: no-repeat;
     background-size: 60vw;

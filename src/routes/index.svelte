@@ -1,5 +1,5 @@
 <script>
-  import texts from "../../static/texts.json";
+  import texts from "../lib/texts.json";
   import Contentgrid from "../components/contentgrid.svelte";
   import Maps from "../components/Maps.svelte";
 </script>
@@ -28,7 +28,7 @@
   </div>
 
   <!-- grid -->
-  <Contentgrid />
+  <Contentgrid {texts} />
   <!-- maps -->
   <Maps mapKanten={texts.mapkanten} mapKraftværket={texts.mapkraftværk} />
 </div>
