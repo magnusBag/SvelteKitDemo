@@ -1,35 +1,42 @@
 <script>
-  import ImagePost from "../components/imagePost.svelte";
-  import { text1, text2 } from "../../static/texts.json";
+  import texts from "../../static/texts.json";
+  import Contentgrid from "../components/contentgrid.svelte";
+  import Maps from "../components/Maps.svelte";
 </script>
 
 <svelte:head>
   <title>Welcome page</title>
 </svelte:head>
 
-<h1 class="text-4xl text-center my-5 uppercase text-white">K a n t e n</h1>
+<div class="p-2">
+  <!-- titel -->
+  <div class="grid w-full mt-8 lg:mt-2 ">
+    <span class="block justify-self-center mb-9 mt-6 " />
+    <h1
+      class="text-3xl sm:text-4xl tracking-[0.4em] text-center my-2 mb-40 lg:mb-80 uppercase text-white"
+    >
+      K a n t e n
+    </h1>
+  </div>
+  <!-- om os tekst -->
+  <div class="bg-black p-4 my-6 lg:mt-96 rounded-md lg:w-128 mx-auto  ">
+    <h1 class="text-2xl my-5 uppercase text-white text-center px-2 ">
+      <b>om kanten</b>
+    </h1>
+    <span class="block justify-self-center" />
+    <p class="text-md my-5 text-white px-2">{texts.text2}</p>
+  </div>
 
-<h1 class="text-2xl text-center my-5 uppercase text-white  bg-black p-6">
-  om kanten
-</h1>
-
-<div class="grid grid-cols-1 gap-3 content-center sm:grid-cols-2 sm:px-24 ">
-  <div class="w-fill rounded-sm  bg-black p-3">
-    <p class="text-sm text-left my-5 text-white ">{text2}</p>
-  </div>
-  <ImagePost src={"../../static/Billede1.png"} />
-  <div class="w-fill rounded-sm bg-black p-5">
-    <p class="text-sm text-left my-5 text-white ">{text1}</p>
-  </div>
-  <div class="w-fill rounded-sm bg-black p-5">
-    <iframe
-      title="kantenmap"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36182.88061459491!2d8.461398805123324!3d55.472602203794416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b212b863b9f21%3A0xda996a903b7c0df7!2sFinsensgade%201%2C%206700%20Esbjerg!5e0!3m2!1sen!2sdk!4v1645955380398!5m2!1sen!2sdk"
-      width="100%"
-      height="100%"
-      style="border:0;"
-      allowfullscreen=""
-      loading="lazy"
-    />
-  </div>
+  <!-- grid -->
+  <Contentgrid />
+  <!-- maps -->
+  <Maps mapKanten={texts.mapkanten} mapKraftværket={texts.mapkraftværk} />
 </div>
+
+<style>
+  .block {
+    background-color: #ff7a3d;
+    width: 4rem;
+    height: 2px;
+  }
+</style>
