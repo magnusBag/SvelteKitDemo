@@ -37,6 +37,11 @@
       background-size: 55vw;
     }
   }
+  @media (min-width: 1900px) {
+    .image {
+      background-size: 40vw;
+    }
+  }
   main {
     font-family: "Poppins", sans-serif;
   }
