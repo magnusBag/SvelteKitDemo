@@ -10,10 +10,10 @@
 
 <div class="p-2">
   <!-- titel -->
-  <div class="grid w-full mt-8 lg:mt-2 ">
+  <div class="grid w-full mt-8 sm:mt-2 ">
     <span class="block justify-self-center mb-9 mt-6 " />
     <h1
-      class="text-3xl sm:text-4xl tracking-[0.4em] text-center my-2 mb-40 lg:mb-80 uppercase text-white"
+      class="text-3xl sm:text-4xl tracking-[0.4em] text-center my-2 mb-40 sm:mb-80 uppercase text-white"
     >
       K a n t e n
     </h1>
