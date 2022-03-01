@@ -19,7 +19,7 @@
     }
   }
   .image {
-    background: url("https://mbaggesen.com/lib/Farve.png");
+    background: url("https://i.ibb.co/LpfJr5r/Farve.png");
     background-position: 50% 190px;
     background-repeat: no-repeat;
     background-size: 60vw;

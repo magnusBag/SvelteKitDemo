@@ -34,9 +34,4 @@
 </div>
 
 <style>
-  .block {
-    background-color: #ff7a3d;
-    width: 4rem;
-    height: 2px;
-  }
 </style>
