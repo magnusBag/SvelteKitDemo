@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Welcome page</title>
+  <title>Kanten</title>
 </svelte:head>
 
 <div class="p-2">
