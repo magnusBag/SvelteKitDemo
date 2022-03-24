@@ -1,0 +1,5 @@
+-todo: 
+    - landing page 
+    - studie page 
+    - om os 
+    - 
