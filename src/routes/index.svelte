@@ -10,14 +10,14 @@
   <title>Kanten</title>
 </svelte:head>
 
-<div class="p-2">
+<div class="p-2" id="welcome">
   <!-- titel -->
 
   <div
-    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4 mb-[20vh] overflow-hidden"
+    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4  overflow-hidden text-white mb-[50vh] lg:mb-[62vh]"
   >
     <span class="block justify-self-center mb-9 mt-6" />
-    <div class="flex text-white w-full justify-evenly text-4xl uppercase ">
+    <div class="flex w-full justify-evenly text-5xl uppercase ">
       <p>k</p>
       <p>a</p>
       <p>n</p>
@@ -25,9 +25,12 @@
       <p>e</p>
       <p>n</p>
     </div>
+    <p class="lg:text-[2vw] text-[4vw] mt-6 text-center">
+      Esbjergs nye kulturfælleskab
+    </p>
     {#if !$timerDone}
       <a href="#textgrid">
-        <div class=" mt-32">
+        <div class=" mt-12 lg:mt-28">
           <Timer />
         </div>
       </a>
@@ -71,6 +74,3 @@
   <!-- maps -->
   <Maps mapKanten={texts.mapkanten} mapKraftværket={texts.mapkraftværk} />
 </div>
-
-<style>
-</style>

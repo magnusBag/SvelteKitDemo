@@ -5,7 +5,7 @@
   import { timerDone } from "../timerStore.js";
 </script>
 
-<div class="bg-black px-4 ">
+<div class="bg-black overflow-hidden">
   <Nav />
   <div class:image={$timerDone}>
     <main>
@@ -18,17 +18,19 @@
 <style>
   main {
     font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    width: 100%;
   }
   .image {
     background-image: url("https://i.ibb.co/LpfJr5r/Farve.png");
-    background-position: 50% 190px;
+    background-position: 50% 250px;
     background-repeat: no-repeat;
     background-size: 55vw;
     background-attachment: fixed;
   }
   @media (max-width: 450px) {
     .image {
-      background-size: 80vw;
+      background-size: 90vw;
     }
   }
   @media (min-width: 1020px) {
