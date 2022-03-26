@@ -45,7 +45,7 @@
   }, 1000);
 </script>
 
-<div class="mx-auto">
+<div class="mx-auto overflow-hidden w-full text-center">
   <div class="child ">
     <span id="demo" class="span">{timerText}</span>
   </div>
@@ -54,7 +54,6 @@
 <style>
   .child {
     background-color: black;
-    overflow: hidden;
     display: inline-block;
     padding: 10px;
     font-weight: bold;
@@ -71,6 +70,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     display: block;
-    font-size: 14vw;
+    font-size: 12.5vw;
   }
 </style>

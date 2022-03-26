@@ -13,7 +13,9 @@
 <div class="p-2">
   <!-- titel -->
 
-  <div class="grid w-full mt-2 sm:-mt-4 mb-[30vh] ">
+  <div
+    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4 mb-[30vh] overflow-hidden "
+  >
     <span class="block justify-self-center mb-9 mt-6 " />
     <div class="flex text-white w-full justify-evenly text-4xl uppercase ">
       <p>k</p>
