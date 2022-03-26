@@ -1,9 +1,9 @@
 <script>
+  import { timerDone } from "../timerStore.js";
   var countDownDate = new Date("April 12 , 2022 00:00:00").getTime();
-  let timerText;
+  let timerText = "__:__:__:__";
   var x = setInterval(function () {
     var now = new Date().getTime();
-
     var distance = countDownDate - now;
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor(
@@ -40,7 +40,7 @@
 
     if (distance < 0) {
       clearInterval(x);
-      timerText = "EXPIRED";
+      timerDone.set(true);
     }
   }, 1000);
 </script>

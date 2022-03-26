@@ -3,6 +3,7 @@
   import Contentgrid from "../components/contentgrid.svelte";
   import Maps from "../components/Maps.svelte";
   import Timer from "../components/Timer.svelte";
+  import { timerDone } from "../timerStore.js";
 </script>
 
 <svelte:head>
@@ -22,7 +23,9 @@
       <p>e</p>
       <p>n</p>
     </div>
-    <Timer />
+    {#if !$timerDone}
+      <Timer />
+    {/if}
   </div>
 
   <!-- om os tekst -->
