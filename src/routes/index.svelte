@@ -14,9 +14,9 @@
   <!-- titel -->
 
   <div
-    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4 mb-[30vh] overflow-hidden "
+    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4 mb-[20vh] overflow-hidden"
   >
-    <span class="block justify-self-center mb-9 mt-6 " />
+    <span class="block justify-self-center mb-9 mt-6" />
     <div class="flex text-white w-full justify-evenly text-4xl uppercase ">
       <p>k</p>
       <p>a</p>
@@ -26,7 +26,11 @@
       <p>n</p>
     </div>
     {#if !$timerDone}
-      <Timer />
+      <a href="#textgrid">
+        <div class=" mt-32">
+          <Timer />
+        </div>
+      </a>
     {/if}
   </div>
 
@@ -53,12 +57,12 @@
       </svg>
     </div>
 
-    <div id="textgrid" class="bg-black p-4 my-4  rounded-md lg:w-128 mx-auto  ">
-      <h1 class="text-2xl my-5 uppercase text-white text-center px-2 ">
+    <div id="textgrid" class="bg-black  my-4  rounded-md lg:w-128 mx-auto  ">
+      <h1 class="text-2xl my-5 uppercase text-white text-center  ">
         <b>om kanten</b>
       </h1>
       <span class="block justify-self-center" />
-      <p class="text-md my-5 text-white px-2">{texts.text2}</p>
+      <p class="text-md my-5 text-white ">{texts.text2}</p>
     </div>
   </a>
 
