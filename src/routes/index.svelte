@@ -14,7 +14,9 @@
   <!-- titel -->
 
   <div
-    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4  overflow-hidden text-white mb-[50vh] lg:mb-[62vh]"
+    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4  overflow-hidden text-white mb-[20vh]"
+    class:mb-[50vh]={$timerDone}
+    class:lg:mb-[62vh]={$timerDone}
   >
     <span class="block justify-self-center mb-9 mt-6" />
     <div class="flex w-full justify-evenly text-5xl uppercase ">
