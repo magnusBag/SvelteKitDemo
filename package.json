@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "svelte-kit dev",
         "build": "svelte-kit build",
-        "preview": "svelte-kit preview",
+        "preview": "svelte-kit preview --host",
         "host": "HOST=0.0.0.0 svelte-kit preview --host"
     },
     "devDependencies": {
@@ -20,5 +20,9 @@
         "@fontsource/fira-mono": "^4.2.2",
         "@lukeed/uuid": "^2.0.0",
         "cookie": "^0.4.1"
+    },
+    "engines": {
+        "node": "16.13.1"
     }
+
 }
