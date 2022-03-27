@@ -25,7 +25,7 @@
       src={"https://mbaggesen.com/lib/Billede2.png"}
       alt="Katenbillede1"
     />
-    <div class="flex rounded-md overflow-hidden">
+    <div class="flex rounded-md overflow-hidden max-h-[30vh]">
       <img
         src="https://mbaggesen.com/lib/Billede3.png"
         alt="Kanten studio"
