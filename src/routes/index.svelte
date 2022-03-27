@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-  <title>Kanten</title>
+  <title>KANTEN - Spillested</title>
 </svelte:head>
 
 <div class="p-2" id="welcome">
