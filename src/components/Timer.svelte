@@ -1,6 +1,6 @@
 <script>
   import { timerDone } from "../timerStore.js";
-  var countDownDate = new Date("May 12 , 2022 00:00:00").getTime();
+  var countDownDate = new Date("May 12 , 2022 18:00:00").getTime();
   let timerText = "__:__:__:__";
   var x = setInterval(function () {
     var now = new Date().getTime();
