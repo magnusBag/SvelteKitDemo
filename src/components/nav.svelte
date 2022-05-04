@@ -1,5 +1,5 @@
 <script>
-  let src = "https://mbaggesen.com/lib/Logo-nobg.png";
+  import src from "../lib/Logo-nobg.png";
 </script>
 
 <nav class="flex justify-end bg-black w-full mx-auto sticky top-0 z-50 ">

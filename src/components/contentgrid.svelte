@@ -1,4 +1,9 @@
 <script>
+  import img1 from "../lib/Billede1.png";
+  import img2 from "../lib/Billede2.png";
+  import img3 from "../lib/Billede3.png";
+  import img4 from "../lib/Billede4.png";
+
   export let texts;
 </script>
 
@@ -6,11 +11,7 @@
   class="grid grid-cols-1 bg-black lg:rounded-md place-items-center mb-4 gap-3 lg:grid-cols-2 lg:w-128 w-full mx-auto h-center"
 >
   <div class="w-fill  h-full rounded-md bg-black ">
-    <img
-      class="my-5 lg:mt-28 rounded-md "
-      src={"https://mbaggesen.com/lib/Billede1.png"}
-      alt="Katenbillede1"
-    />
+    <img class="my-5 lg:mt-28 rounded-md " src={img1} alt="Katenbillede1" />
     <h1 class="text-lg text-center pb-1 text-white">
       <b>{texts.titel1}</b>
     </h1>
@@ -20,22 +21,10 @@
     </div>
   </div>
   <div class=" rounded-md bg-black ">
-    <img
-      class="my-5 rounded-md  "
-      src={"https://mbaggesen.com/lib/Billede2.png"}
-      alt="Katenbillede1"
-    />
+    <img class="my-5 rounded-md  " src={img2} alt="Katenbillede1" />
     <div class="flex rounded-md overflow-hidden max-h-[30vh]">
-      <img
-        src="https://mbaggesen.com/lib/Billede3.png"
-        alt="Kanten studio"
-        class="w-1/2"
-      />
-      <img
-        src="https://mbaggesen.com/lib/billede4.png"
-        alt="Kanten studio"
-        class="w-1/2"
-      />
+      <img src={img3} alt="Kanten studio" class="w-1/2" />
+      <img src={img4} alt="Kanten studio" class="w-1/2" />
     </div>
     <h1 class="text-lg text-center py-2 text-white">
       <b>{texts.titel3}</b>

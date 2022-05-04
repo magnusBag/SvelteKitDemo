@@ -22,7 +22,7 @@
     width: 100%;
   }
   .image {
-    background-image: url("https://i.ibb.co/LpfJr5r/Farve.png");
+    background-image: url("../lib/farve.png");
     background-position: 50% 250px;
     background-repeat: no-repeat;
     background-size: 55vw;

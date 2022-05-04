@@ -62,7 +62,7 @@
   }
 
   .span {
-    background: url(https://i.ibb.co/gVW2zGL/Farve.jpg);
+    background: url("../lib/farveRect.jpg");
     background-position: center;
     font-family: "Red Hat Mono", monospace;
     background-size: 100%;
