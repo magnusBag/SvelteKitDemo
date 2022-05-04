@@ -3,7 +3,6 @@
   import img2 from "../lib/Billede2.png";
   import img3 from "../lib/Billede3.png";
   import img4 from "../lib/Billede4.png";
-
   export let texts;
 </script>
 
