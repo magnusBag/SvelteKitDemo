@@ -21,7 +21,7 @@
     width: 100%;
   }
   .image {
-    background-image: url("../lib/farve.png");
+    background-image: url("https://mbaggesen.com/lib/Farve.png");
     background-position: 50% 250px;
     background-repeat: no-repeat;
     background-size: 55vw;
