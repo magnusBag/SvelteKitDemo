@@ -1,9 +1,11 @@
+<script context="module">
+  export const prerender = true;
+</script>
+
 <script>
   import texts from "../lib/texts.json";
   import Contentgrid from "../components/contentgrid.svelte";
   import Maps from "../components/Maps.svelte";
-  import Timer from "../components/Timer.svelte";
-  import { timerDone } from "../timerStore.js";
 </script>
 
 <svelte:head>
@@ -14,9 +16,7 @@
   <!-- titel -->
 
   <div
-    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4  overflow-hidden text-white mb-[20vh]"
-    class:mb-[50vh]={$timerDone}
-    class:lg:mb-[62vh]={$timerDone}
+    class="grid grid-cols-1 place-items-center mt-2 sm:-mt-4  overflow-hidden mb-[50vh] lg:mb-[62vh] text-white"
   >
     <span class="block justify-self-center mb-9 mt-6" />
     <div class="flex w-full justify-evenly text-5xl uppercase ">
@@ -30,13 +30,6 @@
     <p class="lg:text-[2vw] text-[4vw] mt-6 text-center">
       Esbjergs nye kulturfælleskab
     </p>
-    {#if !$timerDone}
-      <a href="#textgrid">
-        <div class=" mt-12 lg:mt-28">
-          <Timer />
-        </div>
-      </a>
-    {/if}
   </div>
 
   <!-- om os tekst -->
@@ -62,7 +55,10 @@
       </svg>
     </div>
 
-    <div id="textgrid" class="bg-black  my-4  rounded-md lg:w-128 mx-auto  ">
+    <div
+      id="textgrid"
+      class="bg-black bg-opacity-40 my-4 py-2 rounded-md lg:w-128 mx-auto  "
+    >
       <h1 class="text-2xl my-5 uppercase text-white text-center  ">
         <b>om kanten</b>
       </h1>

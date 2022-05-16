@@ -2,12 +2,11 @@
   import "../app.css";
   import Nav from "../components/nav.svelte";
   import Footer from "../components/footer.svelte";
-  import { timerDone } from "../timerStore.js";
 </script>
 
 <div class="bg-black overflow-hidden">
   <Nav />
-  <div class:image={$timerDone}>
+  <div class="image">
     <main>
       <slot />
     </main>
